@@ -1,0 +1,32 @@
+""""user1=input("Enter Rock or paper or scissors")
+user2=input("Enter Rock or paper or scissors")
+if user1==user2:
+    print("Draw")
+elif user1=='Rock' and user2=='scissors':
+    print("User1 wins")
+elif user2=='Rock' and user1=='scissors':
+    print("User2 wins")
+elif user1=='Rock' and user2=='paper':
+    print("User2 wins")
+elif user2=='Rock' and user1=='paper':
+    print("User1 wins")
+elif user1=='scissors' and user2=='paper':
+    print("User1 wins")
+elif user2=='scissors' and user1=='paper':
+    print("User2 wins")
+else:
+    print("Invalid input")
+"""
+
+"""def play_rps(p1,p2):
+    match (p1.lower(),p2.lower()):
+        case (move1,move2) if move1==move2:
+            return "It is a tie"
+        case ('scissors','rock') | ('rock','paper') | ('paper','scissors'):
+            return "Player2 wins"
+        case ('rock','scissors') | ('paper','rock') | ('scissors','paper'):
+            return "Player1 wins"
+        case _:
+            return "Invalid input"
+print(play_rps('rock','scissors'))
+ """   

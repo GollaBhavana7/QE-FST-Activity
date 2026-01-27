@@ -1,0 +1,3 @@
+import requests
+result=requests.get("https://training.suuport.net")
+print(result.content)

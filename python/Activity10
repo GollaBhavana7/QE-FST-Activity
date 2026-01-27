@@ -1,0 +1,3 @@
+t1=tuple(map(int,input("Enter values with space").split()))
+res=[i for i in t1 if i%5==0]
+print(res)

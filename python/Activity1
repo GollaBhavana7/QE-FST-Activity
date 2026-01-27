@@ -1,0 +1,4 @@
+name=input("Enter ur name")
+age=int(input("Enter ur age"))
+year=2026+100-age
+print(name+"will turn 100 in the year"+str(year))

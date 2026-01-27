@@ -1,0 +1,32 @@
+import pandas as pd
+"""d={
+    'a':[1,2,3,4],
+    'b':[2,3,4,5],
+    'c':[4,5,6,7]
+}
+df=pd.DataFrame(d)
+print(df)
+"""
+"""import pandas as pd
+#from pandas import ExcelWriter
+#from pandas import ExcelFile
+d={
+    "Names":["Bhavana","Haasa","Deepthi","Harshilika"],
+    "Marks":[99,78,56,-10]
+}
+df=pd.DataFrame(d)
+df.to_excel('output1.xlsx', index=False)
+"""
+
+"""d={
+    'username':['Bhavana','Haasa','Deepthi','Harshilika'],
+    'password':['bh','ha','de','ha']
+}
+df=pd.DataFrame(d)
+df.to_csv('up.csv')
+"""
+df=pd.read_csv('up.csv')
+print(df['username'])
+print(df.iloc[2,])
+print(df.sort_values('username'))
+print(df.sort_values(by='password',ascending=False))

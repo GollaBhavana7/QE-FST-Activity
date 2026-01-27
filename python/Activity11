@@ -1,0 +1,6 @@
+dic={"apple":25,"mango":50,"orange":30,"kiwi":28}
+fruit=input("Enter Fruit name")
+if fruit in dic:
+    print("Fruit is available")
+else:
+    print("Fruit not available")

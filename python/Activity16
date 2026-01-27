@@ -1,0 +1,21 @@
+class Car:
+    def __init__(self,model,manufacture,make,transmission,color):
+        self.model=model
+        self.manufacture=manufacture
+        self.make=make
+        self.transmission=transmission
+        self.color=color
+    def accelerate(self,manufacture,model):
+        print(f"{self.manufacture} {self.model} is moving")
+    def stop(self,manufacture,model):
+        print(f"{self.manufacture} {self.model} has stopped")
+
+model=input()
+manufacture=input()
+make=input()
+transmission=int(input())
+color=input()
+
+obj=Car(model,manufacture,make,transmission,color)
+obj.accelerate(manufacture,model)
+obj.stop(manufacture,model)

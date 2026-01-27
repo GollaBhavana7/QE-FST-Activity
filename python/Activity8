@@ -1,0 +1,5 @@
+list1=list(map(int,input("Enter list of values with space").split()))
+if list1[0]==list1[-1]:
+    print("True")
+else:
+    print("False")

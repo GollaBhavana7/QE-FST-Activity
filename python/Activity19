@@ -1,0 +1,10 @@
+import pandas as pd 
+d={
+    "FirstName":["karthik","Avinash","Lahri"],
+    "LastName":["Shah","Kati","Rath"],
+    "Email":["satshah@example.com","avinashk@example.com","lahri.rath@example.com"],
+    "Phoneno":[4567,8905,1011]
+}
+df=pd.DataFrame(d)
+df.to_excel('output2.xlsx', index=False)
+

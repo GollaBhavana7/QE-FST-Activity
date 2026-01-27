@@ -1,0 +1,22 @@
+round="Yes"
+while round=="Yes":
+    user1=input("Enter Rock or paper or scissors")
+    user2=input("Enter Rock or paper or scissors")
+    if user1==user2:
+        print("Draw")
+    elif user1=='Rock' and user2=='scissors':
+        print("User1 wins")
+    elif user2=='Rock' and user1=='scissors':
+        print("User2 wins")
+    elif user1=='Rock' and user2=='paper':
+        print("User2 wins")
+    elif user2=='Rock' and user1=='paper':
+        print("User1 wins")
+    elif user1=='scissors' and user2=='paper':
+        print("User1 wins")
+    elif user2=='scissors' and user1=='paper':
+        print("User2 wins")
+    else:
+        print("Invalid input")
+    round=input("Another round?")
+     
