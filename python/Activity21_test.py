@@ -1,0 +1,17 @@
+import math
+def sum(num1,num2):
+    return num1+num2
+def test_sum():
+    assert sum(2,2)==4 
+def diff(num1,num2):
+    return num1-num2
+def test_diff():
+    assert diff(2,2)==0
+def prod(num1,num2):
+    return num1*num2
+def test_prod():
+    assert prod(2,2)==4 
+def quotient(num1,num2):
+    return num1//num2
+def test_quotient():
+    assert quotient(2,2)==1
